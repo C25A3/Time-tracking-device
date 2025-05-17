@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="time-tracker">
+    <div class="time-tracker__profile">
+      <div class="time-tracker__profile-content">
+        <img src="images/image-jeremy.png" alt="avatar" class="time-tracker__profile-img">
+        <p class="time-tracker__profile-text">Report for</p>
+        <p class="time-tracker__profile-name">Jeremy Robson</p>
+      </div>
+      <div class="time-tracker__profile-controls">
+        <button class="time-tracker__profile-btn daily">daily</button>
+        <button class="time-tracker__profile-btn weekly">weekly</button>
+        <button class="time-tracker__profile-btn monthly">monthly</button>
+      </div>
+    </div>
+
+    <div class="time-tracker__card time-tracker__card--work">
+      <img class="time-tracker__card-img" src="images/icon-work.svg">
+      <div class="time-tracker__card-content">
+        <p class="time-tracker__card-category"></p>
+        <p class="time-tracker__card-time"></p>
+        <p class="time-tracker__card-menu">...</p>
+        <p class="time-tracker__card-previous-time"><span class="timeframe"></span> - <span
+            class="previous-time"></span></p>
+      </div>
+    </div>
+    <div class="time-tracker__card time-tracker__card--play">
+      <img class="time-tracker__card-img" src="images/icon-play.svg">
+      <div class="time-tracker__card-content">
+        <p class="time-tracker__card-category"></p>
+        <p class="time-tracker__card-time"></p>
+        <p class="time-tracker__card-menu">...</p>
+        <p class="time-tracker__card-previous-time"><span class="timeframe"></span> - <span
+            class="previous-time"></span></p>
+      </div>
+    </div>
+    <div class="time-tracker__card time-tracker__card--study">
+      <img class="time-tracker__card-img" src="images/icon-study.svg">
+      <div class="time-tracker__card-content">
+        <p class="time-tracker__card-category"></p>
+        <p class="time-tracker__card-time"></p>
+        <p class="time-tracker__card-menu">...</p>
+        <p class="time-tracker__card-previous-time"><span class="timeframe"></span> - <span class="previous-time"></span></p>
+      </div>
+    </div>
+    <div class="time-tracker__card time-tracker__card--exercise">
+      <img class="time-tracker__card-img" src="images/icon-exercise.svg">
+      <div class="time-tracker__card-content">
+        <p class="time-tracker__card-category"></p>
+        <p class="time-tracker__card-time"></p>
+        <p class="time-tracker__card-menu">...</p>
+        <p class="time-tracker__card-previous-time"><span class="timeframe"></span> - <span class="previous-time"></span></p>
+      </div>
+    </div>
+    <div class="time-tracker__card time-tracker__card--social">
+      <img class="time-tracker__card-img" src="images/icon-social.svg">
+      <div class="time-tracker__card-content">
+        <p class="time-tracker__card-category"></p>
+        <p class="time-tracker__card-time"></p>
+        <p class="time-tracker__card-menu">...</p>
+        <p class="time-tracker__card-previous-time"><span class="timeframe"></span> - <span class="previous-time"></span></p>
+      </div>
+    </div>
+    <div class="time-tracker__card time-tracker__card--self-care">
+      <img class="time-tracker__card-img" src="images/icon-self-care.svg">
+      <div class="time-tracker__card-content">
+        <p class="time-tracker__card-category"></p>
+        <p class="time-tracker__card-time"></p>
+        <p class="time-tracker__card-menu">...</p>
+        <p class="time-tracker__card-previous-time"><span class="timeframe"></span> - <span class="previous-time"></span></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
