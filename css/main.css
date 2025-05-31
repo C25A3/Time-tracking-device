@@ -31,9 +31,13 @@ body {
   font-family: "Rubik", sans-serif;
   color: #fff;
   font-size: 1.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+@media (width >= 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .time-tracker {
