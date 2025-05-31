@@ -174,6 +174,9 @@ body {
   .time-tracker__profile {
     grid-column: 1/-1;
   }
+  .time-tracker__card {
+    min-width: 300px;
+  }
   .time-tracker__card--play, .time-tracker__card--exercise, .time-tracker__card--self-care {
     grid-column: 2/3;
   }
@@ -227,6 +230,9 @@ body {
   }
   .time-tracker__profile-btn {
     padding: 0.5em 0;
+  }
+  .time-tracker__card {
+    min-width: 0;
   }
   .time-tracker__card--work {
     grid-row: 1/2;
