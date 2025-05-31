@@ -32,7 +32,7 @@ body {
 	font-family: 'Rubik', sans-serif;
 	color: #fff;
 	font-size: 1.8rem;
-
+	height: 100vh;
 	@media (width >= 1024px) {
 		display: flex;
 		justify-content: center;
@@ -208,6 +208,7 @@ body {
 	}
 	@media (width >= 1024px) {
 		height: 100vh;
+		max-height: 800px;
 		padding: 10em 6em;
 
 		grid-template-columns: repeat(4, 225px);
@@ -303,12 +304,12 @@ body {
 				margin-top: -0.6em;
 			}
 			&-time {
-				margin-top: 0.5em;
+				margin-top: 0.3em;
 				align-self: end;
 				grid-column: 1/-1;
 				grid-row: 2/3;
 
-				font-size: 4rem;
+				font-size: 5rem;
 			}
 
 			&-previous-time {
